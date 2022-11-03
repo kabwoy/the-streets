@@ -46,127 +46,39 @@
                 </div>
             </div>
             <div class="row work-double-row">
+                <% for(image of images){ %> 
                 <div class="col-md-6 col-sm-12  bounceInLeft delay-3s">
-
                     <div class="work-hero-card">
-
-                        <img class="work-card-hero-img" src="assets/img/pics/pic1.jpg">
+                        <img class="work-card-hero-img" src="<%= image.image_src %> ">
                         <h1>David Mugwe</h1>
                         <div id="work-text">Graduation</div>
                     </div>
-
                 </div>
-                <div class="col-md-6 col-sm-12  bounceInRight delay-3s">
-                    <div class="work-hero-card">
-                        <img class="work-card-hero-img" src="assets/img/pics/pic2.jpg">
-                        <h1>David Mugwe</h1>
-                        <div id="work-text">In the City!!</div>
-                    </div>
+                <% } %> 
+                
+            </div>
+            <div class="row work-double-row" id="row-3">
+               
+
                 </div>
             </div>
             <div class="row work-double-row" id="row-3">
-                <div class="col-md-6 col-sm-12  bounceInLeft delay-3s">
-
-                    <div class="work-hero-card">
-                        <img class="work-card-hero-img" src="assets/img/pics/pic3.jpg">
-                        <h1>David Mugwe</h1>
-                        <div id="work-text">In the City!!</div>
-                    </div>
-
-                </div>
-                <div class="col-md-6 col-sm-12  bounceInRight delay-3s">
-                    <div class="work-hero-card">
-                        <img class="work-card-hero-img" src="assets/img/pics/pic4.jpg">
-                        <h1>David Mugwe</h1>
-                        <div id="work-text">In the City!!</div>
-                    </div>
-                </div>
-            </div>
-            <div class="row work-double-row" id="row-3">
-                <div class="col-md-6 col-sm-12  bounceInLeft delay-3s">
-
-                    <div class="work-hero-card">
-                        <img class="work-card-hero-img" src="assets/img/pics/pic5.jpg">
-                        <h1>David Mugwe</h1>
-                        <div id="work-text">In the City!!</div>
-                    </div>
-
-                </div>
-                <div class="col-md-6 col-sm-12  bounceInRight delay-3s">
-                    <div class="work-hero-card">
-                        <img class="work-card-hero-img" src="assets/img/pics/pic6.jpg">
-                        <h1>David Mugwe</h1>
-                        <div id="work-text">In the City!!</div>
-                    </div>
-                </div>
+    
             </div>
 
             <div class="row work-double-row" id="row-3">
                 <div class="col-md-6 col-sm-12  bounceInLeft delay-3s">
 
-                    <div class="work-hero-card">
-                        <img class="work-card-hero-img" src="assets/img/pics/pic7.jpg">
-                        <h1>David Mugwe</h1>
-                        <div id="work-text">In the City!!</div>
-                    </div>
 
-                </div>
-                <div class="col-md-6 col-sm-12  bounceInRight delay-3s">
-                    <div class="work-hero-card">
-                        <img class="work-card-hero-img" src="assets/img/pics/pic7.jpg">
-                        <h1>David Mugwe</h1>
-                        <div id="work-text">In the City!!</div>
-                    </div>
                 </div>
             </div>
 
 
             <div class="row work-double-row" id="row-3">
-                <div class="col-md-6 col-sm-12  bounceInLeft delay-3s">
-
-                    <div class="work-hero-card">
-                        <img class="work-card-hero-img" src="assets/img/pics/pic8.jpg">
-                        <h1>David Mugwe</h1>
-                        <div id="work-text">In the City!!</div>
-                    </div>
-
-                </div>
-                <div class="col-md-6 col-sm-12  bounceInRight delay-3s">
-                    <div class="work-hero-card">
-                        <img class="work-card-hero-img" src="assets/img/pics/pic9.jpg">
-                        <h1>David Mugwe</h1>
-                        <div id="work-text">In the City!!</div>
-                    </div>
-                </div>
+                
             </div>
             
             <div class="row work-double-row" id="row-3">
-                <div class="col-md-6 col-sm-12  bounceInLeft delay-3s">
-
-                    <div class="work-hero-card">
-                        <img class="work-card-hero-img" src="assets/img/pics/pic10.jpg">
-                        <h1>David Mugwe</h1>
-                        <div id="work-text">In the City!!</div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-sm-12  bounceInRight delay-3s">
-                    <div class="work-hero-card">
-                        <img class="work-card-hero-img" src="assets/img/pics/pic11.jpg">
-                        <h1>David Mugwe</h1>
-                        <div id="work-text">In the City!!</div>
-                    </div>
-                </div>
-            </div>
-            <div class="row work-double-row" id="row-3">
-                <div class="col-md-6 col-sm-12  bounceInLeft delay-3s">
-
-                    <div class="work-hero-card">
-                        <img class="work-card-hero-img" src="assets/img/pics/pic12.jpg">
-                        <h1>David Mugwe</h1>
-                        <div id="work-text">In the City!!</div>
-                    </div>
-
-                </div>
                 <!-- <div class="col-md-6 col-sm-12  bounceInRight delay-3s">
                     <div class="work-hero-card">
 
@@ -180,9 +92,9 @@
         </div>
             <div class="footer-full  fadeIn delay-2s">
                 <div id="contact-social" class="social-icons" style="display: inline;">
-                    <a target="_blank" href="mailto:ishandeveloper@outlook.com"><i class="fas fa-envelope"></i></a>
-                    <a target="_blank" href="https://instagram.com/developer.ishan"><i class="fab fa-instagram"></i></a>
-                    <a target="_blank" href="https://linkedin.com/in/ishandeveloper"><i class="fab fa-linkedin"></i></a>
+                    <a target="_blank" href="mailto:davidmugwe19@gmail.com"><i class="fas fa-envelope"></i></a>
+                    <a target="_blank" href=""><i class="fab fa-instagram"></i></a>
+                    <a  target = "_blank" href="https://wa.me/+254741647448"><i class="fab fa-whatsapp" aria-hidden="true"></i></a>
                 </div>
             </div>
         </div>
@@ -192,16 +104,7 @@
                 <div></div>
             </div>
             <div class="menu">
-                <div>
-                    <div>
-                        <ul>
-                            <li><a href="/">Home</a></li>
-                            <li><a href="/about">About</a></li>
-                            <li><a href="/work">Work</a></li>
-                            <li><a disabled href="/contacts" style="text-decoration: line-through;">Contact</a></li>
-                        </ul>
-                    </div>
-                </div>
+                <%- include('./partials/burger') %> 
             </div>
         </div>
 </body>

@@ -4,14 +4,21 @@
             <a href="/"><img id="logo" src="https://cdn-icons-png.flaticon.com/512/83/83574.png"></a>
         </div>
         <div class="nav-items">
+       
             <ul>
-                <li><span><a href="about.html">About</a></span></li>
                 <li><span><a href="/work">Work</a></span></li>
                 <li><span><a href="/contacts">Contact</a></span></li>
+                <% if(!locals.isAuth){ %> 
                 <li><span><a href="/signup">Sign Up</a></span></li>
                 <li><span><a href="/login">Log in</a></span></li>
+                <% } %> 
+                <% if(locals.isAdmin){ %> 
+                <li><span><a href="/images">Add Image</a></span></li>
+                <% } %> 
+                <% if(locals.isAuth){ %> 
+                <li><span><a href="/logout">Log out</a></span></li>
+                <% } %> 
             </ul>
         </div>
-
     </center>
 </nav>
